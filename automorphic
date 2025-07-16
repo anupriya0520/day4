@@ -1,0 +1,12 @@
+class Main {
+    public static void main(String[] args) {
+        int n=23;//2772   
+        int m=n*n;
+        m%=100;
+        if(m==n){
+           System.out.println("automorphic"); 
+        }else{
+            System.out.println("not an automorphic");
+        }
+    }
+}
