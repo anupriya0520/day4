@@ -1,0 +1,15 @@
+class Main {
+    public static void main(String[] args) {
+        int n=7587;//2772      
+        int m=n*2;
+        m%=1000;
+        m/=10;
+        int rem=m/10;
+        m%=10;
+        if(rem==m){
+            System.out.println("strontio");
+        }else{
+            System.out.println("not a strontio");
+        }
+    }
+}
